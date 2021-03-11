@@ -1,0 +1,2 @@
+# Custom-Numpy
+This project is both a C project as well as a performance project—building a slower version of numpy called numc is much faster than the naive implementations of matrix operations (but slower than the actual numpy). The Python-C interface is overloaded with some operators and defined some instance methods for numc.Matrix objects. Finally, the speed up the naive solution makes numc.Matrix operations faster.
